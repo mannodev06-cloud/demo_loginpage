@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="demo.css" />
+    <title>Demo</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>DEMO FORM</h1>
+      <div class="form" id="name">
+        <label for="Full Name">Full Name:</label>
+        <input type="text" placeholder="Full name" required />
+      </div>
+      <div class="form" id="email">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Put in a valid email" required />
+      </div>
+      <div class="form" id="password">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          placeholder="Password"
+          minlength="8"
+          maxlength="12"
+          required
+        />
+      </div>
+      <div id="sign-up">
+        <p>Dont have an account?</p>
+        <a href="#">Sign up here</a>
+      </div>
+      <div>
+        <button id="button" type="button">Submit Form</button>
+      </div>
+    </div>
+  </body>
+</html>
