@@ -7,12 +7,11 @@ body {
 }
 #container {
   background-color: aliceblue;
-  padding: 10px;
+  padding: 30px;
   width: 25%;
-  height: auto;
+  height: 60dvh;
   border: 1px solid rgb(240, 224, 224);
-  border-radius: 20px;
-  margin: 0px auto;
+  border-radius: 20px 90px;
 }
 h1 {
   display: flex;
@@ -33,18 +32,28 @@ h1 {
 input {
   height: 40px;
   width: 100%;
-  border: 1px solid black;
+  border:none;
   border-radius: 0px 16px;
 }
-#sign-up {
+#create-account {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   gap: 10px;
-  color: chartreuse;
+  color: black;
   font-weight: 500;
 }
+
+#sign-up{
+text-decoration:none;
+color: blue;
+}
+
+#sign-up:hover{
+  color:deepskyblue;
+}
+
 button {
   display: block;
   margin: 0 auto;
